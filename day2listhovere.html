@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Html List Example</title>
+    <style type="text/css">
+        #mainmenu li ul li {
+            display: none;
+        }
+
+        #mainmenu li:hover ul li {
+            display: block;
+        }
+
+        #mainmenu li:hover ul li ol li {
+            display: none;
+        }
+
+        #mainmenu li ul li:hover ol li {
+            display: block;
+        }
+
+        #mainmenu li ul li:hover ol li ul li {
+            display: none;
+        }
+
+        #mainmenu li ul li ol li li ul li:hover {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Nested List</h1>
+    <ul id="mainmenu">
+        <li>Google
+            <ul>
+                <li>facebook
+                    <ol>
+                        <li>Sign Up</li>
+                        <li>Sign In</li>
+
+                    </ol>
+
+                </li>
+                <li>Google Drive
+                    <ol type="i">
+                        <li>file Upload</li>
+                        <li>file Download</li>
+                    </ol>
+                </li>
+            </ul>
+
+        </li>
+        <li>Google Chrome
+            <ul>
+                <li>instagram</li>
+            </ul>
+        </li>
+            
+        <li>Bing</li>
+        <li>Mozila Firefox</li>
+
+    </ul>
+</body>
+
+</html>
